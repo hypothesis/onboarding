@@ -4,7 +4,7 @@ Pre-onboarding Reading List
 * The [Hypothesis Mission](https://web.hypothes.is/about/) explains why we do
   what we do.
 
-  A big part of our focus nowaways is on the use of Hypothesis in education.
+  A big part of our focus nowadays is on the use of Hypothesis in education.
   [Hypothesis for Education](https://web.hypothes.is/education/) describes why
   we're bringing digital annotation to students.
 
@@ -32,8 +32,8 @@ Pre-onboarding Reading List
   [Reviewing with care and humanity](https://hyp.is/-Q6K2gwfEe2htfvft46lfg/web.hypothes.is/jobs/engineering-values/)
   is specifically called out in our engineering values.
 
-  The canonical source for code review at Hypothesis is the _Stack Overflow
-  for Teams_ question
+  The canonical source for code review at Hypothesis is the
+  _Stack Overflow for Teams_ question
   [How do I do a good pull request review?](https://stackoverflow.com/c/hypothesis/questions/303)
   but new team members won't have access to that until they have a Stack
   Overflow account that's a member of our team so I've pulled out the articles
