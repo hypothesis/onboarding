@@ -17,6 +17,9 @@ Pre-onboarding Reading List
 * The [Hypothesis Company Principles](https://web.hypothes.is/principles/)
   are the high-level principles that guide everything we build at Hypothesis.
 
+* Our [Code of Conduct](https://github.com/hypothesis/.github/blob/main/CODE_OF_CONDUCT.md)
+  defines our open source community standards and procedures.
+
 * The [Hypothesis Engineering Values](https://web.hypothes.is/jobs/engineering-values/)
   describe the engineering culture we aspire to create at Hypothesis, and are a
   reference that all team members should be familiar with.
