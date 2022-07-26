@@ -1,6 +1,13 @@
 Pre-onboarding Reading List
 ===========================
 
+* The [Hypothesis Company Principles](https://web.hypothes.is/principles/)
+  are the high-level principles that guide everything we build at Hypothesis.
+
+* The [Hypothesis Engineering Values](https://web.hypothes.is/jobs/engineering-values/)
+  describe the engineering culture we aspire to create at Hypothesis, and are a
+  reference that all team members should be familiar with.
+
 * **How we do code reviews at Hypothesis**
 
   * Micheal Lynch's amazing **How to Do Code Reviews Like a Human**: [part one](https://mtlynch.io/human-code-reviews-1/) and
