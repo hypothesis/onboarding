@@ -4,7 +4,7 @@ Pre-onboarding Reading List
 * The [Hypothesis Mission](https://web.hypothes.is/about/) explains why we do
   what we do.
 
-  A big part of our focus nowaways is one the use of Hypothesis in education.
+  A big part of our focus nowaways is on the use of Hypothesis in education.
   [Hypothesis for Education](https://web.hypothes.is/education/) describes why
   we're bringing digital annotation to students.
 
@@ -21,7 +21,7 @@ Pre-onboarding Reading List
   describe the engineering culture we aspire to create at Hypothesis, and are a
   reference that all team members should be familiar with.
 
-* **How we do code reviews at Hypothesis**
+* Code review at Hypothesis:
 
   Our approach to code reviews at Hypothesis is one example of how we put some
   of our engineering values into practice: good communication, lifting the
