@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-# Pre-onboarding Reading List
+# Pre-onboarding
 
 - [ ] **Manager**: send the new team member a copy of the [Pre-onboarding Reading List](https://github.com/hypothesis/onboarding/blob/main/pre_onboarding_reading_list.md)
