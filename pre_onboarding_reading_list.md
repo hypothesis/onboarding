@@ -23,13 +23,13 @@ Pre-onboarding Reading List
 
 * Code review at Hypothesis:
 
-  Our approach to code reviews at Hypothesis is one example of how we put some
+  Our approach to code review at Hypothesis is one example of how we put some
   of our engineering values into practice: good communication, lifting the
   team, checking your ego, avoiding attachment, consensus.
   [Reviewing with care and humanity](https://hyp.is/-Q6K2gwfEe2htfvft46lfg/web.hypothes.is/jobs/engineering-values/)
   is specifically called out in our engineering values.
 
-  The canonical source for code reviews at Hypothesis is the _Stack Overflow
+  The canonical source for code review at Hypothesis is the _Stack Overflow
   for Teams_ question
   [How do I do a good pull request review?](https://stackoverflow.com/c/hypothesis/questions/303)
   but new team members won't have access to that until they have a Stack
