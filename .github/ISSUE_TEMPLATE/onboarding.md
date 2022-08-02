@@ -26,7 +26,6 @@ assignees: ''
       Currently this is [Nick's H Architecture Talk](https://docs.google.com/document/d/1saDTLAniQiwV3KlUE7imo1ZP2BVSVEOQm_yfbKbCKn4/) from 2017
 - [ ] **Engineer**: set up your local development environment and get everything working locally.
       Follow our [Setting up Your Hypothesis Development Environment](https://github.com/hypothesis/onboarding/blob/main/docs/DEVELOPING.md) guide
-- [ ] **Engineer**: learn how the development environment works
 
 # Making simple pull requests (PRs)
 
