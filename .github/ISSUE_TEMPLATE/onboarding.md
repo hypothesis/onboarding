@@ -1,6 +1,6 @@
 ---
-name: New team member onboarding
-about: Onboarding task list for a new team member, their manager and their buddy
+name: New engineer onboarding
+about: Onboarding task list for a new engineer, their manager and their buddy
 title: Onboarding <USERNAME>
 labels: ''
 assignees: ''
@@ -9,13 +9,13 @@ assignees: ''
 
 # Pre-onboarding
 
-- [ ] **Manager**: send the new team member a copy of the [Pre-onboarding Reading List](https://github.com/hypothesis/onboarding/blob/main/docs/reading_list.md)
+- [ ] **Manager**: send the engineer a copy of the [Pre-onboarding Reading List](https://github.com/hypothesis/onboarding/blob/main/docs/reading_list.md)
 
 # Introduction
 
-- [ ] **Manager**: **schedule a product walkthrough** for the new team member with someone from product or support
+- [ ] **Manager**: **schedule a product walkthrough** for the engineer with someone from product or support
   - [ ] **Engineer**: check off this item once you've had the product walkthrough
-- [ ] **Manager**: **assign a buddy** for the new team member's onboarding
+- [ ] **Manager**: **assign a buddy** for the engineer's onboarding
   - [ ] **Manager**: schedule a 1:1 between the engineer and their buddy
   - [ ] **Engineer**: check off this item once you've had your first 1:1 with your buddy
 - [ ] **Engineer**: (re-)read the [Hypothesis Company Principles](https://web.hypothes.is/principles/)
