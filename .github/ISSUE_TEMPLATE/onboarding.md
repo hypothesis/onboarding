@@ -20,10 +20,6 @@ assignees: ''
   - [ ] **Engineer**: check off this item once you've had your first 1:1 with your buddy
 - [ ] **Engineer**: (re-)read the [Hypothesis Company Principles](https://web.hypothes.is/principles/)
 
-TODO: At this point we might want to take a paragraph or two to introduce the
-engineer to what they should expect from their first few months at Hypothesis
-and the rest of the onboarding process.
-
 # Development environment
 
 - [ ] **Engineer**: read our high-level architecture overview.
