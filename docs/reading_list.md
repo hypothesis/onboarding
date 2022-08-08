@@ -29,7 +29,7 @@ This is a short reading list that we send out to new engineers before their firs
   reference that all team members should be familiar with.
 
   As an example of how we put our engineering values into practice, **code review** is one of the main ways that developers interact with each other during
-  their work and [reviewing with care and humanity](https://hyp.is/-Q6K2gwfEe2htfvft46lfg/web.hypothes.is/jobs/engineering-values/) is specifically called
+  their work and [reviewing with care and humanity](https://hyp.is/-Q6K2gwfEe2htfvft46lfg/web.hypothes.is/jobs/engineering-values/) is called
   out in our engineering values. Code reviews should be kind, patient, friendly and helpful, an uplifting experience that helps to foster our team culture.
   For some reading on code review techniques see:
 
