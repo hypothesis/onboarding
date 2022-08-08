@@ -3,6 +3,8 @@ Pre-onboarding Reading List
 
 This is a short reading list that we send out to new engineers before their first day at Hypothesis.
 
+## What Hypothesis Is About
+
 * The [Hypothesis Mission](https://web.hypothes.is/about/) explains why we do
   what we do.
 
@@ -17,6 +19,8 @@ This is a short reading list that we send out to new engineers before their firs
 * The [Hypothesis Company Principles](https://web.hypothes.is/principles/)
   are the high-level principles that guide everything we build at Hypothesis.
 
+## Working at Hypothesis
+
 * Our [Code of Conduct](https://github.com/hypothesis/.github/blob/main/CODE_OF_CONDUCT.md)
   defines our open source community standards and procedures.
 
@@ -24,10 +28,10 @@ This is a short reading list that we send out to new engineers before their firs
   describe the engineering culture we aspire to create at Hypothesis, and are a
   reference that all team members should be familiar with.
 
-* **Code review** is one of the main ways that developers interact with each other during their work so
-  [reviewing with care and humanity](https://hyp.is/-Q6K2gwfEe2htfvft46lfg/web.hypothes.is/jobs/engineering-values/) is specifically called out in our
-  engineering values. Code reviews should be kind, patient, friendly and helpful, an uplifting experience that helps to foster a team culture that upholds 
-  our engineering values. For some reading on code review techniques see:
+  As an example of how we put our engineering values into practice, **code review** is one of the main ways that developers interact with each other during
+  their work and [reviewing with care and humanity](https://hyp.is/-Q6K2gwfEe2htfvft46lfg/web.hypothes.is/jobs/engineering-values/) is specifically called
+  out in our engineering values. Code reviews should be kind, patient, friendly and helpful, an uplifting experience that helps to foster our team culture.
+  For some reading on code review techniques see:
 
   * Micheal Lynch's amazing **How to Do Code Reviews Like a Human** ([part one](https://mtlynch.io/human-code-reviews-1/) and
   [part two](https://mtlynch.io/human-code-reviews-2/))
