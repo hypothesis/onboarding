@@ -1,15 +1,15 @@
 Pre-onboarding Reading List
 ===========================
 
+This is a short reading list that we send out to new engineers before their first day at Hypothesis.
+
 * The [Hypothesis Mission](https://web.hypothes.is/about/) explains why we do
   what we do.
 
-  A big part of our focus nowadays is on the use of Hypothesis in education.
-  [Hypothesis for Education](https://web.hypothes.is/education/) describes why
-  we're bringing digital annotation to students.
+* [Hypothesis for Education](https://web.hypothes.is/education/) describes why
+  we're bringing digital annotation to students and teachers.
 
-  Annotation isn't just for education.
-  [Journalism & Fact-Checking](https://web.hypothes.is/journalism/),
+* [Journalism & Fact-Checking](https://web.hypothes.is/journalism/),
   [Hypothesis for Publishers](https://web.hypothes.is/publishing/),
   and [Hypothesis for Research](https://web.hypothes.is/research/)
   describe our visions for Hypothesis in other fields.
@@ -24,22 +24,11 @@ Pre-onboarding Reading List
   describe the engineering culture we aspire to create at Hypothesis, and are a
   reference that all team members should be familiar with.
 
-* Code review at Hypothesis:
+* **Code review** is one of the main ways that developers interact with each other during their work so
+  [reviewing with care and humanity](https://hyp.is/-Q6K2gwfEe2htfvft46lfg/web.hypothes.is/jobs/engineering-values/) is specifically called out in our
+  engineering values. Code reviews should be kind, patient, friendly and helpful, an uplifting experience that helps to foster a team culture that upholds 
+  our engineering values. For some reading on code review techniques see:
 
-  Our approach to code review at Hypothesis is one example of how we put some
-  of our engineering values into practice: good communication, lifting the
-  team, checking your ego, avoiding attachment, consensus.
-  [Reviewing with care and humanity](https://hyp.is/-Q6K2gwfEe2htfvft46lfg/web.hypothes.is/jobs/engineering-values/)
-  is specifically called out in our engineering values.
-
-  The canonical source for code review at Hypothesis is the
-  _Stack Overflow for Teams_ question
-  [How do I do a good pull request review?](https://stackoverflow.com/c/hypothesis/questions/303)
-  but new team members won't have access to that until they have a Stack
-  Overflow account that's a member of our team so I've pulled out the articles
-  that the question links to:
-
-  * Micheal Lynch's amazing **How to Do Code Reviews Like a Human**:
-    [part one](https://mtlynch.io/human-code-reviews-1/) and
-    [part two](https://mtlynch.io/human-code-reviews-2/)
+  * Micheal Lynch's amazing **How to Do Code Reviews Like a Human** ([part one](https://mtlynch.io/human-code-reviews-1/) and
+  [part two](https://mtlynch.io/human-code-reviews-2/))
   * [Our own blog post about code reviews](https://www.seanh.cc/2016/10/04/code-review/)
