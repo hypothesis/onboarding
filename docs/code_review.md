@@ -7,7 +7,7 @@ should normally be reviewed and approved before merging.
 Code review is one of the main ways that developers interact with each other
 during their work. At Hypothesis we want code reviews to be done with care and
 humanity. They should be kind, patient, friendly and helpful, an uplifting
-experience that helps to foster a team culture that's in line with our
+experience that helps to foster a team culture that upholds our
 engineering values.
 
 Our reference documents for how to do a good pull request review are:
