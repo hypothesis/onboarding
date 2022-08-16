@@ -17,13 +17,12 @@ maintained dependencies that are hard to use and frequently cause problems.
 
 When proposing to add a new dependency to a project you should:
 
-* Discuss the new dependency with other developers.
-
+* **Discuss the new dependency with other developers.**
   Always ask how you'd solve your immediate problem without adding anything new.
   Write down exactly what about the current stack makes solving the problem prohibitively expensive and difficult.
   Does it outweigh the costs of adding the new technology?
 
-* Send a pull request (PR) that adds the new dependency, explaining in the PR description the motivation for adding the new dependency
+* **Send a pull request** (PR) that adds the new dependency, explaining in the PR description the motivation for adding the new dependency
 
 ## Guidelines
 
