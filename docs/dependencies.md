@@ -31,7 +31,7 @@ Some guidelines for deciding whether to add a new technology:
 
 ### Consistency speeds everyone up
 
-There's are many good reasons to use the same stack to solve the same problems in different projects, here's just a few:
+There are many good reasons to use the same stack to solve the same problems in different projects, here's just a few:
 
 * **Cognitive load reduction**: Hypothesis developers only need to learn one thing, not multiple.
 * **Maintenance load reduction**:  when the dependency releases a new version you only need to read the
