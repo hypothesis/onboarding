@@ -30,7 +30,7 @@ You can close this issue once you've deployed at least one of your PRs to produc
 
 - [ ] **Engineer**: request a review for your first PR.
 
-  You can use GitHub to [request a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review) from an individual or team. We always try to prioritize prompt reviews.
+  You can use GitHub to [request a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review) from an individual or team. We always try to prioritize prompt reviews and [automated reminders](https://docs.github.com/en/organizations/managing-organization-settings/managing-scheduled-reminders-for-your-organization) of pending review requests are posted in Slack.
 
 - [ ] **Engineer**: get your first PR approved by its reviewer.
 
