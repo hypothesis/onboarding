@@ -41,6 +41,6 @@ In this phase of your onboarding you'll start making your first pull requests (P
 
   If your PR was to a web app you need to test on QA and deploy to production. If your PR is to another project you may need to release a new version of that project. See our [docs about merging PRs](https://github.com/hypothesis/onboarding/blob/main/docs/merging.md) for details.
 
-[1]: https://stackoverflow.com/c/hypothesis/questions/385/386
-
 You can close this issue once you've deployed at least one of your PRs to production. Now that you now know how to write PRs and deploy them you can work with your buddy to identify more issues to fix.
+
+[1]: https://github.com/hypothesis/onboarding/blob/main/docs/commits_and_prs.md
