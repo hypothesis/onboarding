@@ -9,9 +9,8 @@ assignees: ''
 
 In this phase of your onboarding you'll start making your first pull requests (PRs) to Hypothesis projects, getting your PRs reviewed, and deploying them to production. Your buddy will help you identify some simple issues to tackle for your first PRs.
 
-You can close this issue once you've deployed at least one of your PRs to production.
+- [ ] **Buddy**: identify some good first issues, assign them to the new engineer, and add them to their onboarding board.
 
-- [ ] **Buddy**: identify some good first issues and assign them to the new engineer.
   The [**good first issue** label](https://github.com/issues?q=org%3Ahypothesis+is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) might help.
 
 - [ ] **Engineer**: read our [Code of Conduct](https://github.com/hypothesis/.github/blob/main/CODE_OF_CONDUCT.md).
@@ -40,8 +39,8 @@ You can close this issue once you've deployed at least one of your PRs to produc
 
 - [ ] **Engineer**: deploy or release your merged PR.
 
-  If your PR was to a web app you need to test on QA and deploy to production.
-  If your PR is to another project you may need to release a new version of that project.
-  See our [docs about merging PRs](https://github.com/hypothesis/onboarding/blob/main/docs/merging.md) for details.
+  If your PR was to a web app you need to test on QA and deploy to production. If your PR is to another project you may need to release a new version of that project. See our [docs about merging PRs](https://github.com/hypothesis/onboarding/blob/main/docs/merging.md) for details.
 
 [1]: https://stackoverflow.com/c/hypothesis/questions/385/386
+
+You can close this issue once you've deployed at least one of your PRs to production. Now that you now know how to write PRs and deploy them you can work with your buddy to identify more issues to fix.
