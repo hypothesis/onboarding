@@ -1,7 +1,7 @@
 ---
 name: 03. Set up your development environment
-about: Set up your local DEVELOPING environment.
-title: Set up your development environment and get everything working locally.
+about: Set up your development environment and get everything working locally.
+title: Set up your development environment.
 labels: ''
 assignees: ''
 
