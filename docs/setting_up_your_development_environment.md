@@ -60,8 +60,8 @@ Install the Hypothesis apps
 
 ### h
 
-[h](https://github.com/hypothesis/h/) is our main annotation API service. To
-install and run it:
+[github.com/hypothesis/h](https://github.com/hypothesis/h/) is the main
+annotation API service that all the other apps talk to. To install and run it:
 
 ```terminal
 git clone https://github.com/hypothesis/h.git
@@ -93,9 +93,9 @@ unless we update the devdata repo.
 
 ### Client
 
-[client](https://github.com/hypothesis/client) is the frontend app for
-reading and writing annotations over web pages or PDFs. To install and run
-it:
+[github.com/hypothesis/client](https://github.com/hypothesis/client) is the frontend app that provides
+a sidebar for reading and writing annotations over web pages or PDFs. To
+install and run it:
 
 ```terminal
 git clone https://github.com/hypothesis/client.git
@@ -103,9 +103,65 @@ cd client
 make dev
 ```
 
-You should now be able to open http://localhost:3000/ and see an HTML page
-with the annotation client (sidebar) embedded.
-You should be able to log in to the client and make annotations.
+You should now be able to open http://localhost:3000/ and see an HTML page with
+the client sidebar embedded. You should be able to log in to the client and
+annotate the test page. If it asks for a username and password you can use
+`devdata_user` and `pass`.
+
+### Via
+
+[Via](https://github.com/hypothesis/viahtml) is a proxy that injects the client
+into arbitrary PDFs. To install and run it:
+
+```terminal
+git clone https://github.com/hypothesis/via.git
+cd via
+make services
+make devdata
+make dev
+```
+
+You should now be able to visit <http://localhost:9083/>, paste in the URL
+of a PDF (like [this one](https://en.wikipedia.org/api/rest_v1/page/pdf/Comet_Kohoutek)),
+see the PDF, and annotate it with the injected client sidebar.
+
+### Via HTML
+
+[Via HTML](https://github.com/hypothesis/viahtml) is the component that handles
+HTML pages for Via.  To install and run it:
+
+```terminal
+git clone https://github.com/hypothesis/viahtml.git
+cd viahtml
+make devdata
+make dev
+```
+
+You should now be able to visit <http://localhost:9083/> again, paste in the
+URL of a web page (like [this one](https://en.wikipedia.org/wiki/Pantala_flavescens)),
+and annotate it with the injected client sidebar.
+
+### LMS
+
+[LMS](https://github.com/hypothesis/lms) integrates Hypothesis into Learning
+Management Systems like Canvas, Blackboard, Moodle and others. To install and
+run it:
+
+```terminal
+git clone https://github.com/hypothesis/lms.git
+cd lms
+make services
+make devdata
+make dev
+```
+
+You should now be able to visit
+<https://hypothesis.instructure.com/login/canvas> (our test Canvas instance),
+log in using **Canvas: Instructor (Testing Account)** (the username and
+password are in 1Password) visit [Developer Test Course with Sections Enabled](https://hypothesis.instructure.com/courses/125),
+load localhost test assignments like
+[localhost (make devdata) HTML Assignment](https://hypothesis.instructure.com/courses/125/assignments/873),
+and annotate the assignment web pages and PDFs.
 
 Other things to do
 ------------------
@@ -122,24 +178,4 @@ Other things to do
 
    ```terminal
    make help
-   ```
-
-3. Install more Hypothesis apps. For example:
-
-   1. [Via](https://github.com/hypothesis/viahtml) proxies third-party PDFs
-      and injects the annotation client into them
-   2. [Via HTML](https://github.com/hypothesis/viahtml) proxies HTML pages for Via
-   3. [LMS](https://github.com/hypothesis/lms) integrates Hypothesis into
-      LMS's ("Learning Management Systems") like Canvas, Blackboard, Moodle
-      and others
-
-   Each project's `README.md` explains how to set up that app for development,
-   but the procedure should be the same for each app:
-
-   ```terminal
-   git clone https://github.com/hypothesis/<APP>.git
-   cd <APP>
-   make services # Only some apps have this
-   make devdata  # Only some apps have this
-   make dev      # The app is now running
    ```
