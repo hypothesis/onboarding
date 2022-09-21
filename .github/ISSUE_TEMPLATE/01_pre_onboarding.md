@@ -1,6 +1,6 @@
 ---
 name: 01. Pre-onboarding tasks
-about: Tasks to be done before a new engineer's first day
+about: Pre-onboarding tasks for before a new engineer's first day at Hypothesis.
 title: Pre-onboarding tasks
 labels: ''
 assignees: ''

@@ -1,6 +1,6 @@
 ---
 name: 07. Do your first on-call shift
-about: Tasks for a new engineer to do their first on-call shift
+about: Do your first primary on-call shift.
 title: Do your first on-call shift
 labels: ''
 assignees: ''

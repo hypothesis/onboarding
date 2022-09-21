@@ -1,6 +1,6 @@
 ---
 name: 05. Handle your first batch of Dependabot PRs
-about: Tasks for a new engineer to handle their first batch of Dependabot pull requests
+about: Review your first batch of Dependabot pull requests and deploy them to production.
 title: Handle your first batch of Dependabot PRs
 labels: ''
 assignees: ''

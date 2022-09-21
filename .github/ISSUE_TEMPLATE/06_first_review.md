@@ -1,6 +1,6 @@
 ---
 name: 06. Do your first code review
-about: Tasks for a new engineer to do their first code review
+about: Do your first review of another developer's pull request.
 title: Do your first code review
 labels: ''
 assignees: ''

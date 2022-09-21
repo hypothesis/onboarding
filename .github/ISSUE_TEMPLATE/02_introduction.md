@@ -1,6 +1,6 @@
 ---
 name: 02. Introductory tasks
-about: Introductory tasks for a new engineer
+about: Introductory tasks for a new engineer.
 title: Introductory tasks
 labels: ''
 assignees: ''

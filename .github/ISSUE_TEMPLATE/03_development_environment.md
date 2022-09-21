@@ -1,7 +1,7 @@
 ---
 name: 03. Set up your development environment
-about: Tasks for a new engineer to set up their development environment
-title: Set up your development environment
+about: Set up your local DEVELOPING environment.
+title: Set up your development environment and get everything working locally.
 labels: ''
 assignees: ''
 

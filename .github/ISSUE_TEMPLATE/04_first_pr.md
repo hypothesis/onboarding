@@ -1,6 +1,6 @@
 ---
 name: 04. Make your first pull request
-about: Tasks for a new engineer to make their first pull request
+about: Make your first pull request, get it reviewed, and release/deploy it to production.
 title: Make your first pull request
 labels: ''
 assignees: ''
