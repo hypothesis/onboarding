@@ -1,7 +1,7 @@
 ---
-name: 06. Doing your first code review
+name: 06. Do your first code review
 about: Tasks for a new engineer to do their first code review
-title: <@username> First Code Review
+title: Do your first code review
 labels: ''
 assignees: ''
 

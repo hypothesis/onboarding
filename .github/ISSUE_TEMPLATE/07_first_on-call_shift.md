@@ -1,7 +1,7 @@
 ---
-name: 07. Doing your first on-call shift
+name: 07. Do your first on-call shift
 about: Tasks for a new engineer to do their first on-call shift
-title: <@username>: Do your first on-call shift
+title: Do your first on-call shift
 labels: ''
 assignees: ''
 

@@ -1,7 +1,7 @@
 ---
-name: 02. Introduction
+name: 02. Introductory tasks
 about: Introductory tasks for a new engineer
-title: "<@username> Introduction"
+title: Introductory tasks
 labels: ''
 assignees: ''
 

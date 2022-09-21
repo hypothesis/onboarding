@@ -1,7 +1,7 @@
 ---
-name: 03. Making your first pull request
+name: 04. Make your first pull request
 about: Tasks for a new engineer to make their first pull request
-title: <@username> First Pull Request
+title: Make your first pull request
 labels: ''
 assignees: ''
 

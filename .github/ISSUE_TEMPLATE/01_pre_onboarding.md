@@ -1,7 +1,7 @@
 ---
-name: 01. Pre-onboarding
+name: 01. Pre-onboarding tasks
 about: Tasks to be done before a new engineer's first day
-title: <@username> Pre-onboarding
+title: Pre-onboarding tasks
 labels: ''
 assignees: ''
 

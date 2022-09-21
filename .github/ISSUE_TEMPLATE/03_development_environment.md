@@ -1,7 +1,7 @@
 ---
-name: 03. Development environment set up
+name: 03. Set up your development environment
 about: Tasks for a new engineer to set up their development environment
-title: <@username> Development Environment Set Up
+title: Set up your development environment
 labels: ''
 assignees: ''
 

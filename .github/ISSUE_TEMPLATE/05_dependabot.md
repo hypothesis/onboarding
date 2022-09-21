@@ -1,7 +1,7 @@
 ---
-name: 05. Handling Dependabot pull requests
+name: 05. Handle your first batch of Dependabot PRs
 about: Tasks for a new engineer to handle their first batch of Dependabot pull requests
-title: <@username>: Deploy your first batch of Dependabot PRs
+title: Handle your first batch of Dependabot PRs
 labels: ''
 assignees: ''
 
