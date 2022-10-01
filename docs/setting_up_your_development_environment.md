@@ -1,29 +1,26 @@
 Setting up Your Hypothesis Development Environment
 ==================================================
 
-Set up your GitHub account and SSH key
---------------------------------------
+This guide will walk you through setting up your Hypothesis development environment: installing everything and getting the apps running locally.
 
-You need to be able to `git clone` private repositories from the
-[hypothesis organization on GitHub](https://github.com/hypothesis/):
+You will need
+-------------
 
-1. [Sign up for a free GitHub account](https://github.com/signup) if you don't already have one
-2. Get someone to add your GitHub account to the `hypothesis` organization if it hasn't already been added
-3. [Set up an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-   for git to use to authenticate to GitHub
+1. A GitHub.com account that is a member of the `hypothesis` organization. If you've been hired by Hypothesis this should already have been set up for you.
 
 Install prerequisites
 ---------------------
 
-You'll need:
+You need to install:
 
 1. [Git](https://git-scm.com/)
-2. [Node.js](https://nodejs.org/en/)
-3. [Yarn 1 (Classic)](https://classic.yarnpkg.com/)
-4. [Docker](https://www.docker.com/)
-5. [pyenv](https://github.com/pyenv/pyenv)
-6. [GNU Make](https://www.gnu.org/software/make/)
-7. [pg_config](https://www.postgresql.org/docs/current/app-pgconfig.html)
+2. [GitHub CLI](https://cli.github.com/)
+3. [Node.js](https://nodejs.org/en/)
+4. [Yarn 1 (Classic)](https://classic.yarnpkg.com/)
+5. [Docker](https://www.docker.com/)
+6. [pyenv](https://github.com/pyenv/pyenv)
+7. [GNU Make](https://www.gnu.org/software/make/)
+8. [pg_config](https://www.postgresql.org/docs/current/app-pgconfig.html)
 
 <details>
 <summary>Installing the prerequisites on macOS</summary>
@@ -31,12 +28,13 @@ You'll need:
 1. Install [Homebrew](https://brew.sh/)
 2. Run:
    ```terminal
-   brew install git node postgresql pyenv
+   brew install git gh node postgresql pyenv
    npm install --global yarn
    ```
 3. Follow [Docker's install instructions](https://docs.docker.com/get-docker/). You **don't** need to install Docker Compose
-4. Follow pyenv's instructions to [set up your shell for pyenv](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv)
-5. Follow pyenv's instructions to [install Python build dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
+4. Install pyenv's shell integration and build dependencies. The `brew` command above will have installed pyenv itself but you still need to:
+   1. Follow pyenv's instructions to [set up your shell for pyenv](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv)
+   2. Follow pyenv's instructions to [install Python build dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
 </details>
 
 <details>
@@ -47,13 +45,24 @@ You'll need:
    sudo apt install git make libpq-dev
    sudo snap install --classic node
    ```
-2. Follow [Docker's install instructions](https://docs.docker.com/get-docker/) including the [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/). You **don't** need to install Docker Compose
-3. Follow [pyenv's installation instructions](https://github.com/pyenv/pyenv#installation):
+2. Follow [GitHub CLI's install instructions](https://cli.github.com/)
+3. Follow [Docker's install instructions](https://docs.docker.com/get-docker/) including the [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/). You **don't** need to install Docker Compose
+4. Follow [pyenv's installation instructions](https://github.com/pyenv/pyenv#installation):
    1. The [Basic GitHub Checkout](https://github.com/pyenv/pyenv#basic-github-checkout) method works best on Ubuntu
    2. [Set up your shell](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv) for pyenv
    3. [Install the Python build dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
       that pyenv needs
 </details>
+
+Set up Git &rarr; GitHub.com authentication
+-------------------------------------------
+
+Set up Git to authenticate requests to GitHub.com using your GitHub.com account.
+The easiest way to do this is to run GitHub CLI's [`gh auth login` command](https://cli.github.com/manual/gh_auth_login) and answer **Yes** (the default answer) when it asks **Authenticate Git with your GitHub credentials?**
+
+```terminal
+$ gh auth login -p https -h github.com
+```
 
 Install the Hypothesis apps
 ---------------------------
@@ -91,6 +100,14 @@ environment variables. `make devdata` doesn't generally need to be re-run
 unless we update the devdata repo.
 </details>
 
+<details>
+<summary>What is <code>make dev</code>?</summary>
+
+An app's `make dev` command is what starts the app. For example a web app like h will
+be running and accepting HTTP requests on its localhost port (5000 in h's case)
+when the app's `make dev` command is running.
+</details>
+
 #### Troubleshooting
 
 ##### Connection in use: ('0.0.0.0', 5000)
@@ -119,8 +136,8 @@ annotate the test page. If it asks for a username and password you can use
 
 ### Via
 
-[Via](https://github.com/hypothesis/viahtml) is a proxy that injects the client
-into arbitrary PDFs. To install and run it:
+[Via](https://github.com/hypothesis/via) is a proxy that injects the Hypothesis client
+into PDFs so users can annotate them. To install and run it:
 
 ```terminal
 git clone https://github.com/hypothesis/via.git
@@ -136,13 +153,13 @@ see the PDF, and annotate it with the injected client sidebar.
 
 ### Via HTML
 
-[Via HTML](https://github.com/hypothesis/viahtml) is the component that handles
-HTML pages for Via.  To install and run it:
+[Via HTML](https://github.com/hypothesis/viahtml) is a proxy that injects the Hypothesis client
+into HTML pages so users can annotate them. To install and run it:
 
 ```terminal
 git clone https://github.com/hypothesis/viahtml.git
 cd viahtml
-make devdata
+make services
 make dev
 ```
 
