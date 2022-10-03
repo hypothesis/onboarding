@@ -91,6 +91,15 @@ environment variables. `make devdata` doesn't generally need to be re-run
 unless we update the devdata repo.
 </details>
 
+#### Troubleshooting
+
+##### Connection in use: ('0.0.0.0', 5000)
+
+macOS's AirPlay Receiver uses port 5000. If you're on macOS and you get a
+`Connection in use: ('0.0.0.0', 5000)` error when running `make` commands in h
+then go to <kbd>System Preferences &rarr; Sharing</kbd> and un-check
+<samp>AirPlay Receiver</samp>.
+
 ### Client
 
 [github.com/hypothesis/client](https://github.com/hypothesis/client) is the frontend app that provides
