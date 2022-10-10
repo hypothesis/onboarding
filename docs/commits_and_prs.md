@@ -35,11 +35,6 @@ write to explain your change to the whole team, not just the individual who'll r
 Enable future code archaeology: make it possible to understand and revisit your
 change months or years from now.
 
-As with breaking changes into atomic commits and small PRs, writing good commit
-and PR messages improves the quality of your work: it's a self-review that helps
-you clearly organize your thoughts and understand what you've done and whether
-it really solves the problem.
-
 #### What should go in commit and PR messages?
 
 A commit's diff shows **how** the change was made: what lines of code were
