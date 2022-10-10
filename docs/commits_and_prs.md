@@ -10,11 +10,9 @@ Make small PRs and atomic commits
 ---------------------------------
 
 A good guide is that each PR should do "one thing": a single logical change.
-Needing "and" in your PR title might be a sign that you should split it up. If
-you discover a bug while adding a new feature, send a separate PR to
-fix the bug. If code doesn't follow current conventions do a refactoring commit
-first then a separate commit to make your functional change. We like small PRs
-because:
+Needing "and" in your PR title might be a sign that you should split it up. 
+
+We like small PRs because:
 
 * They're necessary for [continuous deployment](merging.md): you can't deploy a small diff without first merging a small PR.
 * They get faster, better reviews: it takes less time and context-switching to review a small, focused PR.
