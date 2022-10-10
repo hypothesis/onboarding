@@ -50,14 +50,6 @@ because it works well with Git and GitHub which treat the first line as a title
 and use it throughout their interfaces.
 Use the [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood) because it's short and clear.[^1]
 
-#### What should go in PR titles and bodies?
-
-For single-commit PRs GitHub pre-fills the title and body from the commit
-message. You might add some more details to the PR body yourself: screenshots,
-testing instructions, review notes. Multi-commit PR titles can follow the same
-style as for single commits, the PR title and body can document the PR as a
-whole while commit messages can add detail to individual commits.
-
 [^1]: Using the imperative mood means writing your commit title as if giving
   the code a command to change itself, for example
   <b>Refactor foo service for readability</b> (not <q>Foo service refactoring</q>) or
@@ -66,6 +58,14 @@ whole while commit messages can add detail to individual commits.
   <b>Revert <code><title_of_earlier_commit></code>"</b> (from `git revert`),
   <b>Merge pull request #2371</b> (from GitHub's merge button),
   <b>Bump marshmallow from 3.17.1 to 3.18.0a</b> (from Dependabot).
+
+#### What should go in PR titles and bodies?
+
+For single-commit PRs GitHub pre-fills the title and body from the commit
+message. You might add some more details to the PR body yourself: screenshots,
+testing instructions, review notes. Multi-commit PR titles and bodies can
+follow the same style as commit messages but should document the PR as a whole
+and let the commit messages detail the individual commits.
 
 Respond collaboratively to reviews
 ----------------------------------
