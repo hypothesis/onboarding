@@ -53,10 +53,10 @@ Use the [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood) because
 #### What should go in PR titles and bodies?
 
 For single-commit PRs GitHub pre-fills the title and body from the commit
-message. You might add some more details yourself: screenshots, testing
-instructions, review notes. Multi-commit PR titles can follow the same style as
-for single commits, the PR title and body can document the PR as a whole while
-commit messages can add detail to individual commits.
+message. You might add some more details to the PR body yourself: screenshots,
+testing instructions, review notes. Multi-commit PR titles can follow the same
+style as for single commits, the PR title and body can document the PR as a
+whole while commit messages can add detail to individual commits.
 
 [^1]: Using the imperative mood means writing your commit title as if giving
   the code a command to change itself, for example
