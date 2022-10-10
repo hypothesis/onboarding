@@ -20,10 +20,9 @@ because:
 * They get faster, better reviews: it takes less time and context-switching to review a small, focused PR.
 * They improve the quality of your work by encouraging clearly organized thinking, modular code, and purity of purpose.
 
-Make commits atomic: CI should be passing after each commit to enable tools
-like `git revert` and `git bisect` to be used effectively and to make history
-easier to browse and search by avoiding "fix", "typo" and "test" commits. Run
-`make sure` locally to make sure that CI will pass.
+Make commits atomic: CI should be passing after each commit to make tools like
+`git revert` and `git bisect` effective and history easier to navigate (no
+"fix", "typo" and "test" commits).
 
 <details><summary><b>When should you include more than one commit in a PR?</b></summary>
 If a few closely related commits would be easier to review and deploy together
