@@ -37,10 +37,10 @@ change months or years from now.
 
 #### What should go in commit and PR messages?
 
-A commit's diff shows **how** the change was made: what lines of code were
-changed. It's up to the commit message to document **what you intended** the
-commit to achieve, **why** you're making this change, and any **context**
-or background knowledge necessary to understand the change.
+A commit's diff shows **how** the change was made: what lines of code were changed. 
+
+A commit's message needs to document the **intent** of the change, and provide any **context** necessary to understand the change.
+
 [My favourite Git commit](https://dhwthompson.com/2019/my-favourite-git-commit) (written by a former Hypothesis developer)
 and [Telling stories through your commits](https://blog.mocoso.co.uk/talks/2015/01/12/telling-stories-through-your-commits/)
 have some great tips.
