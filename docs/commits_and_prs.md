@@ -35,7 +35,7 @@ write to explain your change to the whole team, not just the individual who'll r
 Enable future code archaeology: make it possible to understand and revisit your
 change months or years from now.
 
-#### What should go in commit and PR messages?
+#### What should go in commit messages?
 
 A commit's diff shows **how** the change was made: what lines of code were changed. 
 
@@ -49,6 +49,8 @@ The first line of a commit should summarize the intent in less than 50 chars
 because it works well with Git and GitHub which treat the first line as a title
 and use it throughout their interfaces.
 Use the [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood) because it's short and clear.[^1]
+
+#### What should go in PR titles and bodies?
 
 For single-commit PRs GitHub pre-fills the title and body from the commit
 message. You might add some more details yourself: screenshots, testing
