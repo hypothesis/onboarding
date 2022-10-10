@@ -60,8 +60,8 @@ Use the [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood) because
 For single-commit PRs GitHub pre-fills the title and body from the commit
 message. You might add some more details yourself: screenshots, testing
 instructions, review notes. Multi-commit PR titles can follow the same style as
-for single commits[^2], the PR title and body can document the PR as a whole
-while commit messages can add detail to individual commits.
+for single commits, the PR title and body can document the PR as a whole while
+commit messages can add detail to individual commits.
 
 [^1]: Using the imperative mood means writing your commit title as if giving
   the code a command to change itself, for example
@@ -71,19 +71,6 @@ while commit messages can add detail to individual commits.
   <b>Revert <code><title_of_earlier_commit></code>"</b> (from `git revert`),
   <b>Merge pull request #2371</b> (from GitHub's merge button),
   <b>Bump marshmallow from 3.17.1 to 3.18.0a</b> (from Dependabot).
-
-[^2]: GitHub pre-fills multi-commit PR titles from the **branch name**,
-  capitalising the first letter and replacing dashes with spaces,
-  so a good style is to name branches like PR titles:
-  summarize the intent in imperative mood in less than 50 chars, but in
-  lower-case and with dashes for spaces:
-  `refactor-foo-service-for-readability`,
-  `fix-crash-when-creating-user-with-long-name`.
-  This makes for descriptive branch names that aren't too long or short and
-  that match their PR titles.
-  It doesn't require you to be clairvoyant about knowing what the PR title will
-  be before you create the local branch: you can always rename the branch
-  before pushing with `git branch --move <new_name>`.
 
 Respond collaboratively to reviews
 ----------------------------------
