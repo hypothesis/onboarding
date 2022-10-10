@@ -24,13 +24,6 @@ Make commits atomic: CI should be passing after each commit to make tools like
 `git revert` and `git bisect` effective and history easier to navigate (no
 "fix", "typo" and "test" commits).
 
-<details><summary><b>When should you include more than one commit in a PR?</b></summary>
-If a few closely related commits would be easier to review and deploy together
-then you might want to include them in the same PR.
-If commits can be decoupled into independently-reviewable, smaller PRs then it
-might be better to split them up.
-</details>
-
 Write helpful commit messages, PR titles, and PR bodies
 -------------------------------------------------------
 
