@@ -3,8 +3,8 @@ Writing Commits and Pull Requests
 
 Small, atomic commits and pull requests (PRs) with helpful commit messages,
 PR titles and PR bodies are great for collaboration and key to a maintainable
-project. Tools like [`git rebase`](https://docs.github.com/en/get-started/using-git/using-git-rebase-on-the-command-line)
-can help you to rewrite commits and split up branches to tell a clean and coherent story.
+project. Tools like [`git rebase`](https://git-rebase.io/) can help you to
+rewrite commits and split up branches to tell a clean and coherent story.
 
 Make small PRs and atomic commits
 ---------------------------------
