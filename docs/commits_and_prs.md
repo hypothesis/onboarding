@@ -10,17 +10,17 @@ Make small PRs and atomic commits
 ---------------------------------
 
 A good guide is that each PR should do "one thing": a single logical change.
-Needing "and" in your PR title might be a sign that you should split it up. 
+An "and" in your PR title might be a sign that you should split it up.
 
 We like small PRs because:
 
-* They're necessary for [continuous deployment](merging.md): you can't deploy a small diff without first merging a small PR.
-* They get faster, better reviews: it takes less time and context-switching to review a small, focused PR.
-* They improve the quality of your work by encouraging clearly organized thinking, modular code, and purity of purpose.
+* They're necessary for [continuous deployment](merging.md): you can't deploy a small diff without first merging a small PR
+* They get faster, better reviews: it takes less time and context-switching to review a small, focused PR
+* They improve the quality of your work by encouraging clearly organized thinking, modular code, and purity of purpose
 
-Make commits atomic: CI should be passing after each commit to make tools like
-`git revert` and `git bisect` effective and history easier to navigate (no
-"fix", "typo" and "test" commits).
+Make commits atomic: CI should pass after each commit to make tools like `git
+revert` and `git bisect` effective and history easier to navigate (no "fix",
+"typo" and "test" commits).
 
 Write helpful commit messages, PR titles, and PR bodies
 -------------------------------------------------------
@@ -45,7 +45,7 @@ A commit's message needs to document the **intent** of the change, and provide a
 and [Telling stories through your commits](https://blog.mocoso.co.uk/talks/2015/01/12/telling-stories-through-your-commits/)
 have some great tips.
 
-The first line of a commit should summarize the intent in less than 50 chars
+The first line of a commit should summarize the intent in less than 50 characters
 because it works well with Git and GitHub which treat the first line as a title
 and use it throughout their interfaces.
 Use the [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood) because it's short and clear.[^1]
