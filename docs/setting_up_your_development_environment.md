@@ -43,11 +43,17 @@ You need to install:
 1. Run:
    ```terminal
    sudo apt install git make libpq-dev
-   sudo snap install --classic node
    ```
-2. Follow [GitHub CLI's install instructions](https://cli.github.com/)
-3. Follow [Docker's install instructions](https://docs.docker.com/get-docker/) including the [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/). You **don't** need to install Docker Compose
-4. Follow [pyenv's installation instructions](https://github.com/pyenv/pyenv#installation):
+2. Follow [NodeSource's instructions](https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions)
+   to install their Node.js Debian/Ubuntu package
+3. Enable Corepack in order to get the `yarn` command
+   (as in [Yarn's install instructions](https://yarnpkg.com/getting-started/install)):
+   ```terminal
+   sudo corepack enable
+   ```
+4. Follow [GitHub CLI's install instructions](https://cli.github.com/)
+5. Follow [Docker's install instructions](https://docs.docker.com/get-docker/) including the [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/). You **don't** need to install Docker Compose
+6. Follow [pyenv's installation instructions](https://github.com/pyenv/pyenv#installation):
    1. The [Basic GitHub Checkout](https://github.com/pyenv/pyenv#basic-github-checkout) method works best on Ubuntu
    2. [Set up your shell](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv) for pyenv
    3. [Install the Python build dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
