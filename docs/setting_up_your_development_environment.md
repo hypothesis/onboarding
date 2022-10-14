@@ -67,7 +67,7 @@ Set up Git to authenticate requests to GitHub.com using your GitHub.com account.
 The easiest way to do this is to run GitHub CLI's [`gh auth login` command](https://cli.github.com/manual/gh_auth_login) and answer **Yes** (the default answer) when it asks **Authenticate Git with your GitHub credentials?**
 
 ```terminal
-$ gh auth login -p https -h github.com
+gh auth login -p https -h github.com
 ```
 
 Install the Hypothesis apps
