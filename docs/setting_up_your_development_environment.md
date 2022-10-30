@@ -31,7 +31,7 @@ You need to install:
    brew install git gh node postgresql pyenv
    npm install --global yarn
    ```
-3. Follow [Docker's install instructions](https://docs.docker.com/get-docker/). You **don't** need to install Docker Compose
+3. Install [Docker Desktop](https://docs.docker.com/desktop/install/mac-install/)
 4. Install pyenv's shell integration and build dependencies. The `brew` command above will have installed pyenv itself but you still need to:
    1. Follow pyenv's instructions to [set up your shell for pyenv](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv)
    2. Follow pyenv's instructions to [install Python build dependencies](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
@@ -52,7 +52,7 @@ You need to install:
    sudo corepack enable
    ```
 4. Follow [GitHub CLI's install instructions](https://github.com/cli/cli#installation)
-5. Follow [Docker's install instructions](https://docs.docker.com/get-docker/) including the [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/). You **don't** need to install Docker Compose
+5. Follow [Docker Desktop's install instructions](https://docs.docker.com/desktop/install/ubuntu/)
 6. Follow [pyenv's installation instructions](https://github.com/pyenv/pyenv#installation):
    1. The [Basic GitHub Checkout](https://github.com/pyenv/pyenv#basic-github-checkout) method works best on Ubuntu
    2. [Set up your shell](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv) for pyenv
