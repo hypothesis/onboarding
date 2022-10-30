@@ -51,7 +51,7 @@ You need to install:
    ```terminal
    sudo corepack enable
    ```
-4. Follow [GitHub CLI's install instructions]([https://cli.github.com/](https://github.com/cli/cli#installation))
+4. Follow [GitHub CLI's install instructions](https://github.com/cli/cli#installation)
 5. Follow [Docker's install instructions](https://docs.docker.com/get-docker/) including the [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/). You **don't** need to install Docker Compose
 6. Follow [pyenv's installation instructions](https://github.com/pyenv/pyenv#installation):
    1. The [Basic GitHub Checkout](https://github.com/pyenv/pyenv#basic-github-checkout) method works best on Ubuntu
