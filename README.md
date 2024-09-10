@@ -13,10 +13,6 @@ This repo defines the Hypothesis new engineer onboarding process:
   [open an issue](https://github.com/hypothesis/onboarding/issues/new) or
   [create a pull request](https://github.com/hypothesis/onboarding/compare)
 
-See also:
-
-* The [`hiring` repo](https://github.com/hypothesis/hiring) that we use for hiring new engineers
-
 Creating an onboarding project for a new engineer
 -------------------------------------------------
 
