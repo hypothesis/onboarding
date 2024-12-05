@@ -25,7 +25,7 @@ individually is typical. We do it this way because:
   often as possible. We know that our deployment and release mechanisms are
   quick and safe because we use them many times a week.
 
-* [The most plausible answer to "what went wrong" is usually "the last thing we changed."](https://blog.skyliner.io/ship-small-diffs-741308bec0d1)
+* [The most plausible answer to "what went wrong" is usually "the last thing we changed."](https://medium.com/skylinerhq/ship-small-diffs-741308bec0d1)
   When a deployment or release breaks something it's easier to pinpoint the
   problem if the diff you just deployed or released was a handful of lines
   rather than thousands.

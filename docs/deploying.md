@@ -113,7 +113,7 @@ repo's **Deploy** workflow is automatically triggered on GitHub Actions and:
 The developer then tests the code on QA and manually approves the deployment to
 production. All deploys to production environments have to be manually
 triggered because making changes to production is inherently a risky operation
-and [risky business requires active operators](https://blog.skyliner.io/risky-business-requires-active-operators-9debbb082995).
+and [risky business requires active operators](https://medium.com/skylinerhq/risky-business-requires-active-operators-9debbb082995).
 Once approved the **Deploy** workflow calls the Elastic Beanstalk API again to
 deploy the image to the app's production environment(s).
 
@@ -279,7 +279,7 @@ but sometimes one might get through and cause problems on QA or production.
 There's no "undo button" for deployments. Deploying a newer version of the code
 and then replacing it with an older version can create extremely confusing
 situations (especially because
-[rolling back the code won't roll back external state like caches or databases](https://blog.skyliner.io/you-cant-have-a-rollback-button-83e914f420d9)).
+[rolling back the code won't roll back external state like caches or databases](https://medium.com/skylinerhq/you-cant-have-a-rollback-button-83e914f420d9)).
 Also, if you rolled back the deployment to an older commit but the the
 problematic commit remained the latest commit on the `main` branch then the bug
 will get redeployed again along with the next developer's PR.
