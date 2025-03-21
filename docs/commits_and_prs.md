@@ -41,7 +41,7 @@ A commit's diff shows **how** the change was made: what lines of code were chang
 
 A commit's message needs to document the **intent** of the change, and provide any **context** necessary to understand the change.
 
-[My favourite Git commit](https://dhwthompson.com/2019/my-favourite-git-commit) (written by a former Hypothesis developer)
+[How to Write Useful Commit Messages](https://refactoringenglish.com/chapters/commit-messages/)
 and [Telling stories through your commits](https://blog.mocoso.co.uk/talks/2015/01/12/telling-stories-through-your-commits/)
 have some great tips.
 
