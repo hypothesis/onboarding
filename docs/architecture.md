@@ -2,19 +2,19 @@
 
 ## Embedded client
 
-![Embedded client architecture diagram](docs/images/arch-embedded-client.png)
+![Embedded client architecture diagram](/docs/images/arch-embedded-client.png)
 
 ## Proxied website
 
-![Proxied website architecture diagram](docs/images/arch-proxied-website.png)
+![Proxied website architecture diagram](/docs/images/arch-proxied-website.png)
 
 ## Proxied PDF
 
-![Proxied website architecture diagram](docs/images/arch-proxied-pdf.png)
+![Proxied website architecture diagram](/docs/images/arch-proxied-pdf.png)
 
 ## LMS PDF
 
-![Proxied website architecture diagram](docs/images/arch-lms-pdf.png)
+![Proxied website architecture diagram](/docs/images/arch-lms-pdf.png)
 
 ## Legacy
 
