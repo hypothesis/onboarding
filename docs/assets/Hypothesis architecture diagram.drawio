@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Página-1" id="Hq8Snt1de0LW3j9Bgqob">
-    <mxGraphModel dx="1426" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,6 +171,58 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ymX4pTPlvbxzeagzUURq-47" connectable="0" parent="ymX4pTPlvbxzeagzUURq-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Pass config&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2931" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-14" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="342" y="3523" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;h - BE&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 153, 255));&quot;&gt;https://hypothes.is&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="342" y="3403" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;client&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(153, 153, 255);&quot;&gt;https://hypothes.is/embed.js&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="333.5" y="3693" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.425;entryY=-0.051;entryDx=0;entryDy=0;entryPerimeter=0;" target="1P0FaonVuGbdt8snpVPb-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="406" y="3569" as="sourcePoint" />
+            <mxPoint x="480" y="3528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-18" connectable="0" parent="1P0FaonVuGbdt8snpVPb-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;/api/*&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0433" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-19" edge="1" parent="1" source="1P0FaonVuGbdt8snpVPb-15" style="endArrow=classic;html=1;rounded=0;" target="1P0FaonVuGbdt8snpVPb-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="3688" as="sourcePoint" />
+            <mxPoint x="457" y="3513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h1&gt;LMS - YouTube video&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="30" width="250" x="293.5" y="3110" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;LMS (Canvas)&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 153, 255));&quot;&gt;https://hypothesis.instructure.com&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="215" x="126" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-22" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=180;height=50;" value="iframe - lms&lt;br&gt;&lt;span style=&quot;color: rgb(153, 153, 255);&quot;&gt;https://lms.hypothes.is/app&lt;/span&gt;" vertex="1">
+          <mxGeometry height="620" width="575" x="126" y="3230" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-24" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=239;height=50;" value="iframe - via (edu)&lt;br&gt;&lt;span style=&quot;color: rgb(153, 153, 255);&quot;&gt;https://edu-via.hypothes.is/video/youtube&lt;/span&gt;" vertex="1">
+          <mxGeometry height="510" width="500" x="161" y="3300" as="geometry" />
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-25" edge="1" parent="1" source="1P0FaonVuGbdt8snpVPb-22" style="endArrow=classic;html=1;rounded=0;entryX=0.747;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.314;exitY=0.054;exitDx=0;exitDy=0;exitPerimeter=0;" target="1P0FaonVuGbdt8snpVPb-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="3263" />
+            </Array>
+            <mxPoint x="321" y="3430" as="sourcePoint" />
+            <mxPoint x="371" y="3380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1P0FaonVuGbdt8snpVPb-26" connectable="0" parent="1P0FaonVuGbdt8snpVPb-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Pass config&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2931" y="4" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

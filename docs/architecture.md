@@ -10,11 +10,15 @@
 
 ## Proxied PDF
 
-![Proxied website architecture diagram](/docs/images/arch-proxied-pdf.png)
+![Proxied PDF architecture diagram](/docs/images/arch-proxied-pdf.png)
 
 ## LMS PDF
 
-![Proxied website architecture diagram](/docs/images/arch-lms-pdf.png)
+![LMS PDF architecture diagram](/docs/images/arch-lms-pdf.png)
+
+## LMS YouTube video
+
+![LMS YouTube video architecture diagram](/docs/images/arch-lms-youtube.png)
 
 ## Legacy
 
